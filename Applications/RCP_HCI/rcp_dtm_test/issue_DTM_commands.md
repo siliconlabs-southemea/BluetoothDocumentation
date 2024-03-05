@@ -1,15 +1,15 @@
 ---
-sort: 4
+sort: 3
 ---
 # run DTM commands
 
-1. Launch YAT and open a new terminal from the File menu for your kit with the correct UART settings like described in [this page](/Bluetooth/Applications/RCP_HCI/Basic_rcp_test/check_with_YAT.md)
+1. Launch YAT and open a new terminal from the File menu for your kit with the correct UART settings like described in [this page](../Basic_rcp_test/check_with_YAT.md)
 2. alternatively other methods to send hexadecimal data can be used (Python for example)
 3. Then you can send commands as per [bluetooth specification](https://www.bluetooth.com/specifications/core54-html/) chapiter 7.8.28/7.8.29/7.8.30
 
 For the below table remember commands start with 0x01 and following bytes are coded using the following scheme (OGF is upper 6 bits for the opcode coded in little endian)
 
-<img src="./images/Screenshot 2024-03-05 at 14.44.21.png" alt="" width="500" class="center">
+![1709648969102](image/issue_DTM_commands/1709648969102.png)
 
 Here are some useful ones as example:
 
